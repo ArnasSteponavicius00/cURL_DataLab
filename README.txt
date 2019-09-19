@@ -24,8 +24,8 @@ curl --output duckduckgo.html https://duckduckgo.com/
 curl -v -o duckduckgo.txt -o duckduckgo.html https://duckduckgo.com/ 
 
 Problem 6:
-curl -o science.txt https://duckduckgo.com/?q=science&t=h_&ia=about 
-curl -o computer-science.txt https://duckduckgo.com/?q=computer+science&t=h_&ia=about
+curl -v -o science.txt https://duckduckgo.com/?q=science&t=h_&ia=about 
+curl -v -o computer-science.txt https://duckduckgo.com/?q=computer+science&t=h_&ia=about
 
 Problem 7:
-curl -o gmit.json https://duckduckgo.com/?q=gmit&format=json
+curl -v -o gmit.json https://duckduckgo.com/?q=gmit&format=json
